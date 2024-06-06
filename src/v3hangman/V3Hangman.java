@@ -50,8 +50,8 @@ public class V3Hangman extends ConsoleProgram {
     // TODO: comment this method
     private void intro() {
         String msg =
-                "@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n" +
-                "Welcome to v2hangman.Hangman!\n" +
+                "\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n" +
+                "Welcome to HangmanV3!\n" +
                 "I will think of a random word.\n" +
                 "You'll try to guess its letters.\n" +
                 "Every time you guess a letter\n" +

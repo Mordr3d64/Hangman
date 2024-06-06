@@ -25,5 +25,4 @@ public class Sound {
     public void stopBgm() {
         bgm.stop();
     }
-
 }
