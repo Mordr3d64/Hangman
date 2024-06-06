@@ -1,3 +1,4 @@
+package v3hangman;
 /*
  * File: HangmanCanvas.java
  * ---------------------
@@ -8,13 +9,16 @@
 
 
 import acm.graphics.GCanvas;
+import acm.graphics.GImage;
 import acm.graphics.GLabel;
 
-public class HangmanCanvas extends GCanvas {
+import java.io.File;
 
-    private static final int TEXT_HEIGHT = 20;   // you can modify this to suit your ascii art
-    private static final int TEXT_X_OFFSET = 12;   // you can modify this to suit your ascii art
-    private int textX;
+public class V3HangmanCanvas extends GCanvas {
+
+    private static final int TEXT_HEIGHT = 15;   // you can modify this to suit your ascii art
+    private static final int TEXT_X_OFFSET = 1;   // you can modify this to suit your ascii art
+    private int textX = 0;
     private int textY;
 
 
@@ -37,10 +41,27 @@ public class HangmanCanvas extends GCanvas {
         printText("Custom println()");
     }
 
+
     public void printText(String text){
         GLabel line = new GLabel(text);
+        line.setFont("Monospaced-plain-12");
         textY += TEXT_HEIGHT;
-        add(line,  textX , textY );
+        add(line,  0 , textY );
+
+    }
+
+    public void println(String data){
+        printText(data);
+    }
+    public void dispImg(File src) {
+        GImage img = new GImage(String.valueOf(src));
+        img.setBounds(0,0,400,500);
+        add(img);
+    }
+    public void clear() {
+        textX = 0;
+        textY = 0;
+        removeAll();
     }
 
     /* Write your methods here */

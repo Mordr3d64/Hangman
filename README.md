@@ -1,4 +1,4 @@
-# Hangman Starter Template
+# v2hangman.Hangman Starter Template
 
 Tested on:
 - IntelliJ Ultimate 2020.2
@@ -6,12 +6,12 @@ Tested on:
 ## Getting Started:
 
 1. Download this repository. 
-- When the download is done, move the "Hangman-master" to your favorite directory.
+- When the download is done, move the "v2hangman.Hangman-master" to your favorite directory.
 - Make sure to remember your **favorite** directory.
 
 2. Open your IntelliJ
     - Select open your project
-    - Navigate to your favorite directory and select 'Hangman-master' you've just downloaded
+    - Navigate to your favorite directory and select 'v2hangman.Hangman-master' you've just downloaded
       
 3. Please check the ff:
     - Under assets

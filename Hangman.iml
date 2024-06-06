@@ -8,7 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
@@ -19,6 +19,17 @@
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/cpei.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/cpei.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
